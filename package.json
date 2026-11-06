@@ -1,0 +1,41 @@
+{
+  "name": "penny",
+  "version": "1.0.0",
+  "description": "Mobile-friendly expense tracker with Gmail transaction imports, spending reports, and budget goals",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test netlify/functions/__tests__/*.test.js"
+  },
+  "keywords": [
+    "expense-tracker",
+    "pwa",
+    "gmail-import",
+    "budgeting",
+    "netlify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "bcryptjs": "^3.0.3",
+    "chart.js": "^4.6.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.68.0",
+    "react": "^19.3.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.3.5"
+  }
+}
